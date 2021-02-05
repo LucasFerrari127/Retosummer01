@@ -1,0 +1,27 @@
+body {
+  background-color: #1a1919;
+  text-align: center;
+  position: relative;
+  font-family: "Roboto Slab", serif;
+  color: #cdcaca;
+}
+
+header {
+  font-family: "kg_red_handsregular";
+}
+
+.informacion {
+  width: 225px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.letra {
+  width: 350px;
+  text-align: center;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Sriracha", cursive;
+}
