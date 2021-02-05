@@ -25,3 +25,11 @@ header {
   margin-right: auto;
   font-family: "Sriracha", cursive;
 }
+
+div p b {
+  color: white;
+}
+
+footer p {
+  font-size: 8px;
+}
