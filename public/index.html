@@ -37,7 +37,7 @@
       content="Portada End of Time de Alan Walker"
     />
     <meta property="twitter:type" content="Portada" />
-    <meta property="twitter:image" content="portada.jpg" />
+    <meta property="twitter:image" content="./images/portada.png" />
     <meta property="twitter:url" content="Lucas Ferrari" />
     <meta property="twitter:creator" content="@notengotwitter" />
 
@@ -68,13 +68,25 @@
 
     <section>
       <img src="./images/portada.jpg" alt="Portada" />
-      <div class="informacion">
-        <p><strong>Nombre:</strong> End of Time</p>
-        <p><strong>Álbum:</strong> End of Time</p>
-        <p><strong>Artistas:</strong> Alan Walker y K-391</p>
-        <p><strong>Año:</strong> 2020</p>
-        <p><strong>Genero:</strong> Pop</p>
-        <p><strong>Duración:</strong> 3:05 Minutos</p>
+      <div
+        class="informacion"
+        itemscope
+        itemtype="http://schema.org/MusicRecording"
+      >
+        <p><strong>Nombre:</strong> <span itemprop="name">End of Time</span></p>
+        <p>
+          <strong>Álbum:</strong><span itemprop="inAlbum">End of Time</span>
+        </p>
+        <p>
+          <strong>Artistas:</strong
+          ><span itemprop="byArtist">Alan Walker y K-391</span>
+        </p>
+        <p><strong>Año:</strong> <span itemprop="copyrightYear">2020</span></p>
+        <p><strong>Genero:</strong> <span itemprop="genre">Pop</span></p>
+        <p>
+          <strong>Duración:</strong
+          ><span itemprop="duration">3:05 Minutos</span>
+        </p>
       </div>
 
       <audio src="./assets/end-of-time.mp3" controls></audio>
